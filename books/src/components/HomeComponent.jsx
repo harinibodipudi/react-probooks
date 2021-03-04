@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import itemslist from './itemslist.json'
 export default class HomeComponent extends Component {
     constructor() {
-
         super();
         this.state = {
             readlist: [],
